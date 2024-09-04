@@ -18,13 +18,13 @@ def login():
 
 
 #sessão abaixo ainda necessita ser finalizada
-database = {"Alain": "123456", "Sandra": "654321"}
-username = input("Enter Your Username : ")
-password = getpass.getpass("Enter Your Password : ")
+database = {"Alan": "123456", "Alana": "654321"}
+username = input("Coloque o seu nome : ")
+password = getpass.getpass("Senha : ")
 for i in database.keys():
 if username == i:
 while password != database.get(i):
-password = getpass.getpass("Enter Your Password Again : ")
+password = getpass.getpass("entre sua senha novamente : ")
 break
 print("Verified")
 
