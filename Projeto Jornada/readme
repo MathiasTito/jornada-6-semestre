@@ -1,0 +1,9 @@
+Data Querying: The chatbot can help users retrieve information from the system by simply 
+asking questions (e.g., "What were the sales figures last month?").
+Guided Assistance: The chatbot can assist users in navigating the system, creating new 
+records, or setting up formulas without needing to dive into complex interfaces.
+
+User Authentication and Permissions: Ensure that only authorized users can access and 
+manipulate data, with role-based access controls.
+Audit Logging: Keep track of who changed what and when, providing a clear audit trail.
+Data Encryption: Protect sensitive data both at rest and in transit.
